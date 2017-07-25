@@ -57,7 +57,12 @@ The formula used : -Kp * p_error - Kd * d_error - Ki * i_error;
 ## Parameter Tuning
 Picking the parameters to successfully make laps around the track was trial and error.  I tried high and low values around the same value used in the lessons to start.  I watched the car make laps and adjusted to get the best fit visually.  The car still jerks side to side and isn't as smooth as a human driver.  The PID formula is simple and concise.  If I had more time I would of liked to make the turning movements smoother so if a human was actually in the car they wouldn't get sick.
 
+
 Default starting parameters were : P = 0.9, I = 0.004, D = 3.0
+
 Final starting parameters were : P = 0.15, I = 0.004, D = 5.23
 
+
 If given more time I would like to plot the correct trajectory and then the one taken then compare the two to figure out if I could improve them further with just the PID equation. One limiting factor is speed.  Since I don't take into account the capabilities of the car on the track it is hard to keep the car on the track at speeds over 30.  To make movements smoother I think speed would also need to be controlled.  
+
+[![Watch the video](https://img.youtube.com/vi/zKsnU7Ixy-Q/0.jpg)](https://youtu.be/zKsnU7Ixy-Q)
