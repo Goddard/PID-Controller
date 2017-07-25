@@ -65,4 +65,5 @@ Final starting parameters were : P = 0.15, I = 0.004, D = 5.23
 
 If given more time I would like to plot the correct trajectory and then the one taken then compare the two to figure out if I could improve them further with just the PID equation. One limiting factor is speed.  Since I don't take into account the capabilities of the car on the track it is hard to keep the car on the track at speeds over 30.  To make movements smoother I think speed would also need to be controlled.  
 
+## Click the image below to watch the demonstration video
 [![Watch the video](https://img.youtube.com/vi/zKsnU7Ixy-Q/0.jpg)](https://youtu.be/zKsnU7Ixy-Q)
